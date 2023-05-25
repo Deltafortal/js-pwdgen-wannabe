@@ -19,8 +19,12 @@ colore = prompt('Inserisci il tuo colore preferito' , 'Viola');
 console.log(colore);
 
 // Somma le variabili
-const passw = nome + cognome + colore + '22';
+const passw = nome + cognome + colore + '21';
 console.log(passw);
+
+// Saluta
+document.getElementById('namePlaceHolder').innerText = nome;
 
 // trova il placehoder nel DOM e inserisci la password generata
 document.getElementById('pwPlaceHolder').innerText = passw;
+
